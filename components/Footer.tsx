@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Github, Twitter, Mail } from "lucide-react";
+import { Github, Twitter, Mail, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -24,6 +24,15 @@ export function Footer() {
               aria-label="GitHub"
             >
               <Github className="h-5 w-5" />
+            </a>
+            <a
+              href={personalInfo.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-5 w-5" />
             </a>
             <a
               href={personalInfo.twitter}

@@ -48,7 +48,7 @@ export function Navigation() {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 {item.label}
               </a>
@@ -78,7 +78,7 @@ export function Navigation() {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}

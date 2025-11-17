@@ -2,7 +2,7 @@
 
 import { personalInfo } from "@/lib/data";
 import { Button } from "@/components/ui/button";
-import { Mail, Github, Twitter } from "lucide-react";
+import { Mail, Github, Twitter, Linkedin } from "lucide-react";
 import { FadeIn } from "@/components/animations/FadeIn";
 
 export function Contact() {
@@ -32,7 +32,12 @@ export function Contact() {
           </a>
 
           <div className="flex gap-4 justify-center pt-4">
-            <Button asChild variant="outline" size="lg">
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="w-full sm:w-auto"
+            >
               <a
                 href={personalInfo.github}
                 target="_blank"
@@ -42,7 +47,27 @@ export function Contact() {
                 GitHub
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg">
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="w-full sm:w-auto"
+            >
+              <a
+                href={personalInfo.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="mr-2 h-5 w-5" />
+                LinkedIn
+              </a>
+            </Button>
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="w-full sm:w-auto"
+            >
               <a
                 href={personalInfo.twitter}
                 target="_blank"

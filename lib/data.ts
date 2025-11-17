@@ -4,6 +4,7 @@ export const personalInfo = {
   title: "Full Stack Developer | Web3 & Blockchain Specialist",
   email: "idderfsalem98@gmail.com",
   github: "https://github.com/slubbles",
+  linkedin: "https://www.linkedin.com/in/idderfsalem/",
   twitter: "https://x.com/idderfsalem",
   website: "https://snarbles.xyz",
   location: "Philippines 🇵🇭",

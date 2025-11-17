@@ -2,9 +2,9 @@
 
 > Full-stack developer building production Web3 and traditional web apps.
 
-**Live Site:** Coming soon (deploying to Vercel)
+**Live Site:** https://idderfsalem.dev
 
-## � Tech Stack
+## 🚀 Tech Stack
 
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript
